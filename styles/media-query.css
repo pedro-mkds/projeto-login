@@ -42,6 +42,16 @@ TVs e telas extragrandes – 1201px ou mais
     width: 70%;
     height: 100%;
   }
+
+  #form h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+
+  #form p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -64,5 +74,15 @@ TVs e telas extragrandes – 1201px ou mais
     float: right;
     width: 60%;
     height: 100%;
+  }
+
+  #form h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+
+  #form p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
   }
 }

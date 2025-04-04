@@ -6,6 +6,9 @@
   <title>Projeto Login</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/media-query.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
 </head>
 <body>
   <main>
@@ -19,6 +22,24 @@
         <p>Seja bem-vindo(a) novamente!</p>
         <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
       </div>
+
+      <form action="login.php" method="post" autocomplete="on">
+        <div class="campo">
+          <span class="material-symbols-outlined icon">person</span>
+          <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+          <label for="email"></label>
+        </div>
+        <div class="campo">
+          <span class="material-symbols-outlined icon">lock</span>
+          <input type="password" name="senha" id="senha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+          <label for="senha"></label>
+        </div>
+
+        <div>
+          <input type="submit" value="Enviar">
+          <a href="esqueci.html">Esqueci minha senha</a>
+        </div>
+        
       </form>
     </section>
   </main>

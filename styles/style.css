@@ -71,5 +71,76 @@ main {
 }
 
 #form p {
+  font-size: 0.9em;
   padding-bottom: 10px;
 }
+
+form {
+  padding: 20px;
+  text-align: center;
+}
+
+.campo {
+  text-align: center;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+#icon {
+  color: black;
+}
+
+.campo input {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  outline: none;
+  transition: border-color 0.3s ease-out;
+  
+}
+
+.campo input:focus {
+  border-bottom: 1px solid white;
+}
+
+.icon {
+  display: inline-block;
+  color: white;
+}
+
+input[type=submit] {
+  margin: 20px auto 10px auto;
+  display: block;
+  font-size: 1em;
+  width: 60%;
+
+  background-color: #ca6a2c;
+  border-radius: 30px;
+  padding: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #ca6b2c6c;
+  transition: 0.3s;
+}
+
+input[type=submit]:hover {
+  transform: scale(1.2);
+  background-color: #e78848;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
