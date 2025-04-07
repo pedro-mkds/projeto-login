@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Login</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/media-query.css">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
 </head>
+
 <body>
   <main>
     <section id="login">
       <div id="img">
-        
+
       </div>
       <div id="form">
         <h1>Login</h1>
         <hr>
         <p>Seja bem-vindo(a) novamente!</p>
         <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-      </div>
+
 
       <form action="login.php" method="post" autocomplete="on">
         <div class="campo">
-          <span class="material-symbols-outlined icon">person</span>
-          <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+          <span class="material-symbols-outlined icon" style="font-size: 2em; width: 40px;">person</span>
+          <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" required
+            maxlength="30">
           <label for="email"></label>
         </div>
         <div class="campo">
-          <span class="material-symbols-outlined icon">lock</span>
-          <input type="password" name="senha" id="senha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+          <span class="material-symbols-outlined icon" style="font-size: 2em; width: 40px;">lock</span>
+          <input type="password" name="senha" id="senha" placeholder="Sua senha" autocomplete="current-password"
+            required minlength="8" maxlength="20">
           <label for="senha"></label>
         </div>
 
-        <div>
+        <div class="enviar">
           <input type="submit" value="Enviar">
           <a href="esqueci.html">Esqueci minha senha</a>
         </div>
-        
+      </div>
+
       </form>
     </section>
   </main>
 </body>
+
 </html>

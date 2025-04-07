@@ -24,11 +24,13 @@ TVs e telas extragrandes – 1201px ou mais
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    background-image: linear-gradient(to right,  #0d1114, #000000);
+    background-image: linear-gradient(to right, #0d1114, #000000);
   }
+
   #login {
     width: 90vw;
     box-shadow: 0px 0px 10px #e266007a;
+    overflow: auto;
   }
 
   #img {
@@ -56,12 +58,13 @@ TVs e telas extragrandes – 1201px ou mais
 
 @media screen and (min-width: 992px) {
   body {
-    background-image: linear-gradient(to right,  #0d1114, #000000);
+    background-image: linear-gradient(to right, #0d1114, #000000);
   }
 
   #login {
     width: 950px;
     box-shadow: 0px 0px 10px #e266007a;
+    overflow: auto;
   }
 
   #img {
